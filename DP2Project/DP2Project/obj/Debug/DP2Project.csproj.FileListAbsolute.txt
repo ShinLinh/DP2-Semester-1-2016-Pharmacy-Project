@@ -1,0 +1,5 @@
+c:\users\darkp\documents\visual studio 2015\Projects\DP2Project\DP2Project\bin\Debug\DP2Project.dll
+c:\users\darkp\documents\visual studio 2015\Projects\DP2Project\DP2Project\bin\Debug\DP2Project.pdb
+c:\users\darkp\documents\visual studio 2015\Projects\DP2Project\DP2Project\obj\Debug\DP2Project.csprojResolveAssemblyReference.cache
+c:\users\darkp\documents\visual studio 2015\Projects\DP2Project\DP2Project\obj\Debug\DP2Project.dll
+c:\users\darkp\documents\visual studio 2015\Projects\DP2Project\DP2Project\obj\Debug\DP2Project.pdb
