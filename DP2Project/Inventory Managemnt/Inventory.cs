@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace inventoryManagemnt
+namespace InventoryManagemnt
 {
-    List<item> fInventory = new List<item>;
     class Inventory
     {
-        
+        private List<Item> _inventory = new List<Item>();
     }
 }

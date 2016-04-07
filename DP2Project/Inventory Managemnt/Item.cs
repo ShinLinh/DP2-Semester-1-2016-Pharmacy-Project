@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inventory_Managemnt
+namespace InventoryManagemnt
 {
     class Item
     {
-        int _id;
-        string _itemName;
-        float _price;
-        int _inStock;
+        private int _id;
+        private string _itemName;
+        private float _price;
+        private int _inStock;
     }
 }

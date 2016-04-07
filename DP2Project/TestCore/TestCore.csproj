@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inventory Managemnt\InventoryManagemnt.csproj">
+    <ProjectReference Include="..\Inventory Managemnt\InventoryManagement.csproj">
       <Project>{7be97680-9580-40bf-966a-cad31a62a07c}</Project>
-      <Name>InventoryManagemnt</Name>
+      <Name>InventoryManagement</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

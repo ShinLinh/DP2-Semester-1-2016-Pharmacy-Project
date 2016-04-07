@@ -1,0 +1,87 @@
+[1mdiff --git a/DP2Project/.vs/DP2Project/v14/.suo b/DP2Project/.vs/DP2Project/v14/.suo[m
+[1mindex 8da62fa..466cfcb 100644[m
+Binary files a/DP2Project/.vs/DP2Project/v14/.suo and b/DP2Project/.vs/DP2Project/v14/.suo differ
+[1mdiff --git a/DP2Project/DP2Project.sln b/DP2Project/DP2Project.sln[m
+[1mindex 60b1eec..a1f858e 100644[m
+[1m--- a/DP2Project/DP2Project.sln[m
+[1m+++ b/DP2Project/DP2Project.sln[m
+[36m@@ -5,7 +5,7 @@[m [mVisualStudioVersion = 14.0.24720.0[m
+ MinimumVisualStudioVersion = 10.0.40219.1[m
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCore", "TestCore\TestCore.csproj", "{C6EAF037-D65A-48F0-9E65-22FC4B10DD44}"[m
+ EndProject[m
+[31m-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagemnt", "Inventory Managemnt\InventoryManagemnt.csproj", "{7BE97680-9580-40BF-966A-CAD31A62A07C}"[m
+[32m+[m[32mProject("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement", "Inventory Managemnt\InventoryManagement.csproj", "{7BE97680-9580-40BF-966A-CAD31A62A07C}"[m
+ EndProject[m
+ Global[m
+ 	GlobalSection(SolutionConfigurationPlatforms) = preSolution[m
+[1mdiff --git a/DP2Project/Inventory Managemnt/Inventory.cs b/DP2Project/Inventory Managemnt/Inventory.cs[m
+[1mindex 5180b59..b56b0a9 100644[m
+[1m--- a/DP2Project/Inventory Managemnt/Inventory.cs[m	
+[1m+++ b/DP2Project/Inventory Managemnt/Inventory.cs[m	
+[36m@@ -4,11 +4,10 @@[m
+ using System.Text;[m
+ using System.Threading.Tasks;[m
+ [m
+[31m-namespace inventoryManagemnt[m
+[32m+[m[32mnamespace InventoryManagemnt[m
+ {[m
+[31m-    List<item> fInventory = new List<item>;[m
+     class Inventory[m
+     {[m
+[31m-        [m
+[32m+[m[32m        private List<Item> _inventory = new List<Item>();[m
+     }[m
+ }[m
+[1mdiff --git a/DP2Project/Inventory Managemnt/InventoryManagement.csproj b/DP2Project/Inventory Managemnt/InventoryManagement.csproj[m
+[1mindex 0c21f26..e2b27d6 100644[m
+[1m--- a/DP2Project/Inventory Managemnt/InventoryManagement.csproj[m	
+[1m+++ b/DP2Project/Inventory Managemnt/InventoryManagement.csproj[m	
+[36m@@ -43,7 +43,8 @@[m
+     <Reference Include="System.Xml" />[m
+   </ItemGroup>[m
+   <ItemGroup>[m
+[31m-    <Compile Include="Program.cs" />[m
+[32m+[m[32m    <Compile Include="Inventory.cs" />[m
+[32m+[m[32m    <Compile Include="Item.cs" />[m
+     <Compile Include="Properties\AssemblyInfo.cs" />[m
+   </ItemGroup>[m
+   <ItemGroup>[m
+[1mdiff --git a/DP2Project/Inventory Managemnt/Item.cs b/DP2Project/Inventory Managemnt/Item.cs[m
+[1mindex ae07143..35317f6 100644[m
+[1m--- a/DP2Project/Inventory Managemnt/Item.cs[m	
+[1m+++ b/DP2Project/Inventory Managemnt/Item.cs[m	
+[36m@@ -4,13 +4,13 @@[m
+ using System.Text;[m
+ using System.Threading.Tasks;[m
+ [m
+[31m-namespace Inventory_Managemnt[m
+[32m+[m[32mnamespace InventoryManagemnt[m
+ {[m
+     class Item[m
+     {[m
+[31m-        int _id;[m
+[31m-        string _itemName;[m
+[31m-        float _price;[m
+[31m-        int _inStock;[m
+[32m+[m[32m        private int _id;[m
+[32m+[m[32m        private string _itemName;[m
+[32m+[m[32m        private float _price;[m
+[32m+[m[32m        private int _inStock;[m
+     }[m
+ }[m
+[1mdiff --git a/DP2Project/TestCore/TestCore.csproj b/DP2Project/TestCore/TestCore.csproj[m
+[1mindex b805e00..5cb26dd 100644[m
+[1m--- a/DP2Project/TestCore/TestCore.csproj[m
+[1m+++ b/DP2Project/TestCore/TestCore.csproj[m
+[36m@@ -50,9 +50,9 @@[m
+     <None Include="App.config" />[m
+   </ItemGroup>[m
+   <ItemGroup>[m
+[31m-    <ProjectReference Include="..\Inventory Managemnt\InventoryManagemnt.csproj">[m
+[32m+[m[32m    <ProjectReference Include="..\Inventory Managemnt\InventoryManagement.csproj">[m
+       <Project>{7be97680-9580-40bf-966a-cad31a62a07c}</Project>[m
+[31m-      <Name>InventoryManagemnt</Name>[m
+[32m+[m[32m      <Name>InventoryManagement</Name>[m
+     </ProjectReference>[m
+   </ItemGroup>[m
+   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />[m
