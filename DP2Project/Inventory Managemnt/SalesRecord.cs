@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace InventoryManagement
 {
-    public class Inventory
+    public class SalesRecord
     {
-        private List<Item> _inventory;
-
-        public Inventory(string inventoryFile)
+        private List<Sale> _record;
+        
+        public SalesRecord(string salesFile)
         {
         }
     }
