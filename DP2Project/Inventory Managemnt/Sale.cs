@@ -24,5 +24,54 @@ namespace InventoryManagement
             _amount = amount;
             _totalPrice = totalPrice;
         }
+
+        public int Date
+        {
+            get
+            {
+                return _date;
+            }
+        }
+
+        public int Month
+        {
+            get
+            {
+                return _month;
+            }
+        }
+
+        public int Year
+        {
+            get
+            {
+                return _year;
+            }
+        }
+
+        public int ID
+        {
+            get
+            {
+                return _id;
+            }
+        }
+
+        public int Amount
+        {
+            get
+            {
+                return _amount;
+            }
+        }
+
+        public float TotalPrice
+        {
+            get
+            {
+                return _totalPrice;
+            }
+        }
+
     }
 }
