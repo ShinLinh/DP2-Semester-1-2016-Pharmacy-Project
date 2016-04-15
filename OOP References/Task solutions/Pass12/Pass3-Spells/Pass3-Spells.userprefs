@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Pass3-Spells.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SpellKind.cs">
+    <Files>
+      <File FileName="Program.cs" Line="18" Column="35" />
+      <File FileName="Spell.cs" Line="22" Column="17" />
+      <File FileName="SpellBook.cs" Line="1" Column="1" />
+      <File FileName="Heal.cs" Line="1" Column="1" />
+      <File FileName="Invisibility.cs" Line="1" Column="1" />
+      <File FileName="SpellBookTests.cs" Line="56" Column="4" />
+      <File FileName="SpellKind.cs" Line="13" Column="1" />
+      <File FileName="SpellTest.cs" Line="1" Column="1" />
+      <File FileName="Teleport.cs" Line="7" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

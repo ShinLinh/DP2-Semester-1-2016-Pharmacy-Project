@@ -1,0 +1,4 @@
+C:\Users\LinhShin\Documents\Projects\Pass2-Counter\Pass2-Counter\bin\Debug\Pass2-Counter.exe
+C:\Users\LinhShin\Documents\Projects\Pass2-Counter\Pass2-Counter\bin\Debug\Pass2-Counter.pdb
+C:\Users\LinhShin\Documents\Projects\Pass2-Counter\Pass2-Counter\obj\x86\Debug\Pass2-Counter.exe
+C:\Users\LinhShin\Documents\Projects\Pass2-Counter\Pass2-Counter\obj\x86\Debug\Pass2-Counter.pdb

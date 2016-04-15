@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Pass2-Counter\Pass2-Counter.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pass2-Counter\Program.cs">
+    <Files>
+      <File FileName="Pass2-Counter\Program.cs" Line="25" Column="4" />
+      <File FileName="Pass2-Counter\Properties\Counter.cs" Line="12" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

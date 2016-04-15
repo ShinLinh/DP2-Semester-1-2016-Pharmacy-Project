@@ -1,0 +1,7 @@
+C:\Users\LinhShin\Documents\Projects\Pass3-Spells\Pass3-Spells\bin\Debug\Pass3-Spells.exe
+C:\Users\LinhShin\Documents\Projects\Pass3-Spells\Pass3-Spells\bin\Debug\Pass3-Spells.pdb
+C:\Users\LinhShin\Documents\Projects\Pass3-Spells\Pass3-Spells\obj\x86\Debug\Pass3-Spells.exe
+C:\Users\LinhShin\Documents\Projects\Pass3-Spells\Pass3-Spells\obj\x86\Debug\Pass3-Spells.pdb
+C:\Users\LinhShin\Documents\Projects\Pass3-Spells\Pass3-Spells\bin\Debug\nunit.framework.dll
+C:\Users\LinhShin\Documents\Projects\Pass3-Spells\Pass3-Spells\bin\Debug\nunit.framework.xml
+C:\Users\LinhShin\Documents\Projects\Pass3-Spells\Pass3-Spells\obj\x86\Debug\Pass3-Spells.csprojResolveAssemblyReference.cache
