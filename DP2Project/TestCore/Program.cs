@@ -9,9 +9,13 @@ namespace TestCore
 {
     class Program
     {
+        private List<Item> _price;
         static void Main(string[] args)
         {
-
+            list.ForEach(Console.WriteLine);
+            Console.ReadLine();
+            
+            //public Item(int id, string name, float price, int inStock)
         }
     }
 }
