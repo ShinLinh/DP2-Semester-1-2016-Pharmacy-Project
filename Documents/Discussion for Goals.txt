@@ -1,0 +1,31 @@
+Is our project 'Done'?
+
+We decided to not aim for learnability, understandability or attractiveness in this sprint as the purpose of this sprint was to get core functionality up and running.
+
+
+Density - KLOC - How big is it?
+Aim for 5% defect density
+
+Testing
+Each application function/method should not be difficult to test for. We should aim to be able to aim to not exceed 30 minutes for any given function.
+
+Functional Appropriateness and Completeness
+The product at the end of the sprint must be able to facilitate all the functions discussed in this sprint planning period.
+95-100%
+Why 95%?
+We are not experienced programmers. We are prone to mistake as we are still learning. Therefore a 5% margin of error has been added.
+
+Functional Correctness
+100% precision is required with this application. Due to the nature of it being a sales management software for a Pharmacy there can be no inaccuracies.
+
+Response Time
+50 records, 500 milliseconds read write time to our DB
+
+Resource Utilization
+500mb RAM usage maximum
+CPU Utilization - Depends on the CPU as it is difficult to properly quantify due to the vast differences between CPU generations, 
+but for example on a more recent machine such as an average process (Intel Core i7-4510U @ 2.00Ghz) we should expect this application to utilize 5% of the CPU when runnning at max. 
+This may vary depending on the amount of data being read/written.
+
+Capactity
+In terms of number of records, for now the inventory will contain about a hundred records, but for sales it could handle thousands a month, at an estimate 10,000 records.
