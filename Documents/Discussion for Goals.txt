@@ -16,7 +16,7 @@ Why 95%?
 We are not experienced programmers. We are prone to mistake as we are still learning. Therefore a 5% margin of error has been added.
 
 Functional Correctness
-100% precision is required with this application. Due to the nature of it being a sales management software for a Pharmacy there can be no inaccuracies.
+100% precision is required with this application. Due to the nature of it being a sales management software for a Pharmacy there must be no inaccuracies.
 
 Response Time
 50 records, 500 milliseconds read write time to our DB
@@ -29,3 +29,6 @@ This may vary depending on the amount of data being read/written.
 
 Capactity
 In terms of number of records, for now the inventory will contain about a hundred records, but for sales it could handle thousands a month, at an estimate 10,000 records.
+
+As the stakeholders/product owner may or may not have experience with programming, we also have to finish at least a console application that allows demonstration
+of the functions of the software without showing internal codes.
