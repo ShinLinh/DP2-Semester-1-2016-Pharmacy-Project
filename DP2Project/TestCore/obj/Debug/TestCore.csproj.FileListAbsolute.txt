@@ -14,3 +14,6 @@ C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\bin\De
 C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\bin\Debug\Inventory Managemnt.dll
 C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\bin\Debug\Inventory Managemnt.pdb
 C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\obj\Debug\TestCore.csprojResolveAssemblyReference.cache
+C:\Users\darkp\Documents\Github\DP2Project\DP2Project\TestCore\bin\Debug\TestCore.exe.config
+C:\Users\darkp\Documents\Github\DP2Project\DP2Project\TestCore\obj\Debug\TestCore.exe
+C:\Users\darkp\Documents\Github\DP2Project\DP2Project\TestCore\obj\Debug\TestCore.pdb

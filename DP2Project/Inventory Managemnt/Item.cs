@@ -63,10 +63,16 @@ namespace InventoryManagement
             {
                 return _inStock;
             }
-            set
-            {
-                _inStock = value;
-            }
+        }
+
+        public void Restock(int amount)
+        {
+            _inStock += amount;
+        }
+
+        public void Sell(int amount)
+        {
+            _inStock -= amount;
         }
     }
 }

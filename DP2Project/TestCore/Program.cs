@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using InventoryManagement;
 
 namespace TestCore
 {
@@ -12,7 +13,7 @@ namespace TestCore
         private List<Item> _price;
         static void Main(string[] args)
         {
-            list.ForEach(Console.WriteLine);
+            _price.ForEach(Console.WriteLine); //For each is not viable because no field exist yet. Dynamic containers have no fields at initialization.
             Console.ReadLine();
             
             //public Item(int id, string name, float price, int inStock)

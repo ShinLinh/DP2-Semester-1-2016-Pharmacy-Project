@@ -13,11 +13,14 @@ namespace InventoryManagement
 
         public Inventory(string inventoryFile)
         {
-            string file = "db.csv";
+            // Test on your own time :). take note of the inventoryFile parameter
+            /*string file = "db.csv";
             if (!File.Exists(file))
             {
                 FileStream fs = File.Create(file);
-            }
+            }*/
+
+
         }
     }
 }

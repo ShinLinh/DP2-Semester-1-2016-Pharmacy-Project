@@ -12,6 +12,9 @@ namespace InventoryManagement
         
         public SalesRecord(string salesFile)
         {
+
         }
+
+
     }
 }
