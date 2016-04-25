@@ -10,13 +10,14 @@ namespace TestCore
 {
     class Program
     {
-        private List<Item> _price;
+        private List<Item> _price = new List<Item>();
         static void Main(string[] args)
         {
-            _price.ForEach(Console.WriteLine); //For each is not viable because no field exist yet. Dynamic containers have no fields at initialization.
-            Console.ReadLine();
+            //_price.ForEach(Console.WriteLine); //For each is not viable because no field exist yet. Dynamic containers have no fields at initialization.
+            //Console.ReadLine();
             
             //public Item(int id, string name, float price, int inStock)
+
         }
     }
 }

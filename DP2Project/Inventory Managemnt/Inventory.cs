@@ -9,7 +9,7 @@ namespace InventoryManagement
 {
     public class Inventory
     {
-        private List<Item> _inventory;
+        private List<Item> _inventory = new List<Item>();
 
         public Inventory(string inventoryFile)
         {

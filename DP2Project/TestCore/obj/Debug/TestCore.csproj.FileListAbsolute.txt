@@ -1,11 +1,9 @@
 C:\Users\darkp\documents\visual studio 2015\Projects\DP2Project\TestCore\bin\Debug\TestCore.exe.config
 C:\Users\darkp\documents\visual studio 2015\Projects\DP2Project\TestCore\bin\Debug\TestCore.exe
 C:\Users\darkp\documents\visual studio 2015\Projects\DP2Project\TestCore\bin\Debug\TestCore.pdb
-C:\Users\darkp\documents\visual studio 2015\Projects\DP2Project\TestCore\bin\Debug\Inventory Managemnt.pdb
 C:\Users\darkp\documents\visual studio 2015\Projects\DP2Project\TestCore\obj\Debug\TestCore.csprojResolveAssemblyReference.cache
 C:\Users\darkp\documents\visual studio 2015\Projects\DP2Project\TestCore\obj\Debug\TestCore.exe
 C:\Users\darkp\documents\visual studio 2015\Projects\DP2Project\TestCore\obj\Debug\TestCore.pdb
-C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\Debug\Inventory Managemnt.dll
 C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\bin\Debug\TestCore.exe.config
 C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\obj\Debug\TestCore.exe
 C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\obj\Debug\TestCore.pdb
@@ -17,3 +15,7 @@ C:\Users\c-abubonya\Documents\Uni\Software 2\Projects\DP2Project\TestCore\obj\De
 C:\Users\darkp\Documents\Github\DP2Project\DP2Project\TestCore\bin\Debug\TestCore.exe.config
 C:\Users\darkp\Documents\Github\DP2Project\DP2Project\TestCore\obj\Debug\TestCore.exe
 C:\Users\darkp\Documents\Github\DP2Project\DP2Project\TestCore\obj\Debug\TestCore.pdb
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\Debug\Inventory Management.dll
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\Debug\Inventory Management.pdb
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\Debug\nunit.framework.dll
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\Debug\nunit.framework.xml

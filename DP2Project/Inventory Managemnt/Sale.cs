@@ -13,9 +13,9 @@ namespace InventoryManagement
         private int _year;
         private int _id;
         private int _amount;
-        private float _totalPrice;
+        private decimal _totalPrice;
 
-        public Sale(int date, int month, int year, int id, int amount, float totalPrice)
+        public Sale(int date, int month, int year, int id, int amount, decimal totalPrice)
         {
             _date = date;
             _month = month;
@@ -65,7 +65,7 @@ namespace InventoryManagement
             }
         }
 
-        public float TotalPrice
+        public decimal TotalPrice
         {
             get
             {
