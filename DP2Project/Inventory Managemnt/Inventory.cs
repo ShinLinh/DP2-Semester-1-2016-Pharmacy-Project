@@ -11,6 +11,10 @@ namespace InventoryManagement
     {
         private List<Item> _inventory = new List<Item>();
 
+        public Inventory()
+        {
+        }
+
         public Inventory(string inventoryFile)
         {
             // Test on your own time :). take note of the inventoryFile parameter
@@ -21,6 +25,14 @@ namespace InventoryManagement
             }*/
 
 
+        }
+
+        public List<Item> List
+        {
+            get
+            {
+                return _inventory;
+            }
         }
     }
 }

@@ -15,9 +15,15 @@ namespace TestCore
         {
             //_price.ForEach(Console.WriteLine); //For each is not viable because no field exist yet. Dynamic containers have no fields at initialization.
             //Console.ReadLine();
-            
-            //public Item(int id, string name, float price, int inStock)
 
+            //public Item(int id, string name, float price, int inStock)
+            string _fileName = "SalesRecordTest.txt";
+            string path = AppDomain.CurrentDomain.BaseDirectory;
+            path += _fileName;
+            SalesProcessor _processor = new SalesProcessor(path, path);
+
+            InputHandler inputHandler = new InputHandler(_processor);
+            inputHandler.TakeInput();
         }
     }
 }

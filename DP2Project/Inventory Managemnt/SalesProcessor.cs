@@ -16,5 +16,22 @@ namespace InventoryManagement
             _inventory = new Inventory(inventory);
             _record = new SalesRecord(record);
         }
+
+        public SalesRecord Record
+        {
+            get
+            {
+                return _record;
+            }
+        }
+
+        public Inventory Inventory
+        {
+            get
+            {
+                return _inventory;
+            }
+        }
+
     }
 }

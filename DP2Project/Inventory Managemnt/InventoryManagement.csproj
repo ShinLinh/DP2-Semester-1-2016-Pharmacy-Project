@@ -116,7 +116,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
     <Compile Include="SalesProcessor.cs" />
+    <Compile Include="UnitTests\UtilityFunctionTest.cs" />
     <Compile Include="UnitTests\SalesRecordTest.cs" />
+    <Compile Include="UtilityFunctions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

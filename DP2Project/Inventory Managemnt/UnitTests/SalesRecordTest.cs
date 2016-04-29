@@ -29,25 +29,6 @@ namespace InventoryManagement.UnitTests
         }
 
         [Test()]
-        public void TestTextToRecord()
-        {
-            //SalesRecord _record = 
-            //    new SalesRecord(@"C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\SalesRecordTest.txt");
-            string _fileName = "SalesRecordTest.txt";
-            string path = AppDomain.CurrentDomain.BaseDirectory;
-            path += _fileName;
-            SalesRecord _record = new SalesRecord(path);
-            Sale testSale = new Sale(1, 1, 2011, 115, 20, 30);
-            Sale testSale2 = _record.TextToRecord("1,1,2011,115,20,30,\n");
-            Assert.IsNotNull(testSale2);
-            Assert.AreEqual(testSale2.Date, testSale.Date);
-            Assert.AreEqual(testSale2.Month, testSale.Month);
-            Assert.AreEqual(testSale2.Year, testSale.Year);
-            Assert.AreEqual(testSale2.Amount, testSale.Amount);
-            Assert.AreEqual(testSale2.TotalPrice, testSale.TotalPrice);
-        }
-
-        [Test()]
         public void TestAddRecord()
         {
             string _fileName = "SalesRecordTest.txt";
@@ -74,18 +55,6 @@ namespace InventoryManagement.UnitTests
             //Console.WriteLine(_record[_record.Count - 1].TotalPrice);
             Assert.AreEqual(_record[_record.Count - 1].TotalPrice, _testSale.TotalPrice);
             //Console.WriteLine("{0},{1},{2},{3},{4},{5}", _record[_record.Count - 1].Date, _record[_record.Count - 1].Month, _record[_record.Count - 1].Year, _record[_record.Count - 1].ID, _record[_record.Count - 1].Amount, _record[_record.Count - 1].TotalPrice);
-        }
-
-        [Test()]
-        public void TestRecordToText()
-        {
-            string _fileName = "SalesRecordTest.txt";
-            string path = AppDomain.CurrentDomain.BaseDirectory;
-            path += _fileName;
-            SalesRecord _record = new SalesRecord(path);
-            Sale _testSale = new Sale(12, 5, 2015, 123, 3, 30);
-
-            Assert.AreEqual(_record.RecordToText(_testSale),"12,5,2015,123,3,30,");
         }
 
         //used for testing function, does not need to worry about

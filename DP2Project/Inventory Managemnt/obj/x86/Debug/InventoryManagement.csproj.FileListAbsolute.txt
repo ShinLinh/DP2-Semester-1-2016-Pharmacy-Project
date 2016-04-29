@@ -3,8 +3,7 @@ C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Manage
 C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\bin\x86\Debug\Inventory Management.pdb
 C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\bin\x86\Debug\nunit.framework.dll
 C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\bin\x86\Debug\nunit.framework.xml
-C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\obj\x86\Debug\InventoryManagement.csprojResolveAssemblyReference.cache
-C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\obj\x86\Debug\Inventory Management.dll
-C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\obj\x86\Debug\Inventory Management.pdb
 C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\obj\x86\Debug\InventoryManagement.Properties.Resources.resources
 C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\obj\x86\Debug\InventoryManagement.csproj.GenerateResource.Cache
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\obj\x86\Debug\Inventory Management.dll
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\Inventory Managemnt\obj\x86\Debug\Inventory Management.pdb
