@@ -18,8 +18,10 @@ namespace TestCore
 
             //public Item(int id, string name, float price, int inStock)
             string _fileName = "SalesRecordTest.txt";
-            string path = AppDomain.CurrentDomain.BaseDirectory;
-            path += _fileName;
+        //string path = AppDomain.CurrentDomain.BaseDirectory;
+         string path = @"C:\Users\darkp\Documents\DP2Project\TestCore\";
+         path += _fileName;
+            Console.WriteLine(path);
             SalesProcessor _processor = new SalesProcessor(path, path);
 
             InputHandler inputHandler = new InputHandler(_processor);

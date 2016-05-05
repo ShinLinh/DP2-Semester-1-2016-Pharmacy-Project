@@ -15,6 +15,11 @@ namespace InventoryManagement
         private List<Sale> _record;
         string recordFile;
 
+        public SalesRecord(List<Sale> record)
+        {
+            _record = record;
+        }
+
         /// <summary>
         /// Creates a record object within the program (preferrably during runtime
         /// </summary>
@@ -181,6 +186,7 @@ namespace InventoryManagement
                 return _record;
             }
         }
+
         /// <summary>
         /// Return a list of sales recorded on the day provided
         /// </summary>
@@ -212,7 +218,7 @@ namespace InventoryManagement
 
             foreach (Sale value in _record)
             {
-                if (value.Date == month)
+                if (value.Month == month)
                 {
                     result.Add(value);
                 }

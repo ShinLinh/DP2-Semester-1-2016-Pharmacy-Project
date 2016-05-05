@@ -25,7 +25,7 @@ namespace InventoryManagement.UnitTests
             Assert.IsTrue(_record[0].Date == 05);
             Assert.IsTrue(_record[1].Month == 03);
             Assert.AreEqual(_record[0].Year, _record[2].Year);
-            Console.WriteLine("{0},{1},{2},{3},{4},{5}", _record[_record.Count - 1].Date, _record[_record.Count - 1].Month, _record[_record.Count - 1].Year, _record[_record.Count - 1].ID, _record[_record.Count - 1].Amount, _record[_record.Count - 1].TotalPrice);
+            //Console.WriteLine("{0},{1},{2},{3},{4},{5}", _record[_record.Count - 1].Date, _record[_record.Count - 1].Month, _record[_record.Count - 1].Year, _record[_record.Count - 1].ID, _record[_record.Count - 1].Amount, _record[_record.Count - 1].TotalPrice);
         }
 
         [Test()]
