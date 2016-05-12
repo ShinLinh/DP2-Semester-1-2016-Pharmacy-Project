@@ -41,10 +41,10 @@ namespace TestCore
 
         public static void OutputInventory(Inventory inventory)
         {
-            /*foreach (Item value in inventory.List)
+            foreach (Item value in inventory.List)
             {
-                Console.WriteLine(UtilityFunctions.RecordToText(value));
-            }*/
+                Console.WriteLine(UtilityFunctions.ItemToText(value));
+            }
         }
     }
 }

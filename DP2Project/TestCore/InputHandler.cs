@@ -84,6 +84,14 @@ namespace TestCore
                     }
                     else if (inputArray[1] == "inventory")
                     {
+                        string inventoryTextValue = inputArray[2];
+                        if (inventoryTextValue != null)
+                        {
+                            _processor.Inventory.AddItem(UtilityFunctions.TextToItem(inventoryTextValue));
+                            ConsoleOutput.OutputMessage("Item Added");
+                        }
+                        else
+                            ConsoleOutput.OutputMessage("Invalid item Input");
                     }
                     else
                     {
@@ -103,11 +111,9 @@ namespace TestCore
                             {
                                 case "date":
                                     tempRecord = new SalesRecord(_processor.Record.searchSaleByDate(Convert.ToInt32(inputArray[4])));
-                                    //ConsoleOutput.OutputSalesRecord(tempRecord);
                                     break;
                                 case "month":
                                     tempRecord = new SalesRecord(_processor.Record.searchSaleByMonth(Convert.ToInt32(inputArray[4])));
-                                    //ConsoleOutput.OutputSalesRecord(tempRecord);
                                     break;
                                 case "year":
                                     tempRecord = new SalesRecord(_processor.Record.searchSaleByYear(Convert.ToInt32(inputArray[4])));
@@ -128,8 +134,21 @@ namespace TestCore
                     {
                         return false;
                     }
+                } else if (inputArray[0] == "sell")
+                {
+                    if (inputArray[1] == "item" && inputArray[3] == "by")
+                    {
+                        int _itemID = Convert.ToInt32(inputArray[2]);
+                        int _amount = Convert.ToInt32(inputArray[4]);
+
+                        _processor.SellItem(_itemID, _amount);
+                    } else
+                    {
+                        return false;
+                    }
+
                 }
-                else
+                else 
                 {
                     return false;
                 }

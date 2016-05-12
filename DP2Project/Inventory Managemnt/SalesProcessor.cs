@@ -33,5 +33,35 @@ namespace InventoryManagement
             }
         }
 
+        public bool SellItem(int id, int amount)
+        {
+            Item _item;
+            DateTime currentTime = DateTime.Now;
+            int _date = currentTime.Day;
+            int _month = currentTime.Month;
+            int _year = currentTime.Year;
+            if (_inventory[id] != null)
+                _item = _inventory[id];
+            else
+    
+                return false;
+            decimal _totalPrice = _item.Price * amount;
+
+            _item.Sell(amount);
+            _record.AddRecord(new Sale(_date, _month, _year, id, amount, _totalPrice));
+            return true; 
+        }
+
+        public bool RestockItem(int id, int amount)
+        {
+            Item _item;
+            if (_inventory[id] != null)
+                _item = _inventory[id];
+            else
+                return false;
+
+            _item.Restock(amount);
+            return true;
+        }
     }
 }

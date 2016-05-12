@@ -37,14 +37,11 @@ namespace InventoryManagement
             
             //Read the lines one by one and turn each line into one element of a string array
             string[] records = File.ReadAllLines(salesFile);
-            //Console.WriteLine(records.Length);
 
             //Convert each of the element in the string array into a record item and add to the list
             for (int i = 0; i < records.Length; i++)
             {
-                //Console.WriteLine(records[i]);
-
-                _record.Add(TextToRecord(records[i]));
+                _record.Add(UtilityFunctions.TextToRecord(records[i]));
             }
         }
 

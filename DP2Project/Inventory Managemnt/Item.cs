@@ -10,10 +10,10 @@ namespace InventoryManagement
     {
         private int _id;
         private string _name;
-        private float _price;
+        private decimal _price;
         private int _inStock;
 
-        public Item(int id, string name, float price, int inStock)
+        public Item(int id, string name, decimal price, int inStock)
         {
             _id = id;
             _name = name;
@@ -45,7 +45,7 @@ namespace InventoryManagement
             }
         }
 
-        public float Price
+        public decimal Price
         {
             get
             {

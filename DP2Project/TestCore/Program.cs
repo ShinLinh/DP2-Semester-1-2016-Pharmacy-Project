@@ -17,12 +17,15 @@ namespace TestCore
             //Console.ReadLine();
 
             //public Item(int id, string name, float price, int inStock)
-            string _fileName = "SalesRecordTest.txt";
-         string path = AppDomain.CurrentDomain.BaseDirectory;
-         //string path = @"C:\Users\darkp\Documents\DP2Project\TestCore\";
-         path += _fileName;
+            string _recordFile = "SalesRecordTest.txt";
+            string _inventoryFile = "InventoryTest.txt";
+            string path = AppDomain.CurrentDomain.BaseDirectory;
+            //string path = @"C:\Users\darkp\Documents\DP2Project\TestCore\";
+            
+            string _recordPath = path + _recordFile;
+            string _inventoryPath = path + _inventoryFile; 
             Console.WriteLine(path);
-            SalesProcessor _processor = new SalesProcessor(path, path);
+            SalesProcessor _processor = new SalesProcessor(_inventoryPath, _recordPath);
 
             InputHandler inputHandler = new InputHandler(_processor);
             inputHandler.TakeInput();
