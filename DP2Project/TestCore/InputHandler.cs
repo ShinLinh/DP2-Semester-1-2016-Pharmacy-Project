@@ -76,7 +76,7 @@ namespace TestCore
                         string saleTextValue = inputArray[2];
                         if (saleTextValue != null)
                         {
-                            _processor.Record.AddRecord(UtilityFunctions.TextToRecord(saleTextValue));
+                            _processor.Record.AddSaleToRecord(UtilityFunctions.TextToRecord(saleTextValue));
                             ConsoleOutput.OutputMessage("Sale record added");
                         }
                         else

@@ -1,0 +1,10 @@
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\x86\Release\TestCore.exe.config
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\x86\Release\TestCore.exe
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\x86\Release\TestCore.pdb
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\x86\Release\Inventory Management.dll
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\x86\Release\nunit.framework.dll
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\x86\Release\Inventory Management.pdb
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\bin\x86\Release\nunit.framework.xml
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\obj\x86\Release\TestCore.csprojResolveAssemblyReference.cache
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\obj\x86\Release\TestCore.exe
+C:\Users\darkp\Documents\Visual Studio 2015\Projects\DP2Project\TestCore\obj\x86\Release\TestCore.pdb

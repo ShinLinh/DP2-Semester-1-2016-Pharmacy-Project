@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using NUnit.Framework;
 
 namespace InventoryManagement.UnitTests
@@ -37,7 +33,7 @@ namespace InventoryManagement.UnitTests
             SalesRecord _record = new SalesRecord(path);
             int _initialCount = _record.Count;
             Sale _testSale = new Sale(12, 5, 2015, 123, 3, 30);
-            _record.AddRecord(_testSale);
+            _record.AddSaleToRecord(_testSale);
 
             Assert.AreEqual(_initialCount + 1, _record.Count);
             Assert.AreSame(_record[_record.Count - 1], _testSale);

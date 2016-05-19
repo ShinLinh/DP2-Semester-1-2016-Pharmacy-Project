@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace InventoryManagement
@@ -60,12 +57,12 @@ namespace InventoryManagement
         /// Add sale to record
         /// </summary>
         /// <param name="sale">Sale occured, containing data about the sale</param>
-        public void AddRecord(Sale sale)
+        public void AddSaleToRecord(Sale sale)
         {
             //Add sale to the record
             _record.Add(sale);
             //Write said record to file
-            addRecordToFile(sale);
+            AddSaleToFile(sale);
         }
 
         /// <summary>
@@ -155,11 +152,11 @@ namespace InventoryManagement
         /// Add the record as text format to the record file
         /// </summary>
         /// <param name="record"></param>
-        public void addRecordToFile(Sale record)
+        public void AddSaleToFile(Sale sale)
         {
             using (StreamWriter file = new StreamWriter(recordFile, true))
             {
-                file.WriteLine(UtilityFunctions.RecordToText(record));
+                file.WriteLine(UtilityFunctions.RecordToText(sale));
             }
         }
 

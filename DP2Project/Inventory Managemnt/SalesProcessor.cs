@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InventoryManagement
 {
@@ -48,7 +44,7 @@ namespace InventoryManagement
             decimal _totalPrice = _item.Price * amount;
 
             _item.Sell(amount);
-            _record.AddRecord(new Sale(_date, _month, _year, id, amount, _totalPrice));
+            _record.AddSaleToRecord(new Sale(_date, _month, _year, id, amount, _totalPrice));
             return true; 
         }
 
